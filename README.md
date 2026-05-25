@@ -7,7 +7,7 @@ I ship tools that bridge LLMs to real-world systems — on-chain data, market si
 ## What I'm building
 
 ### 🤖 AI agent frameworks
-- **gemini-agent-toolkit** *(shipping Week 3)* — LangGraph for Gemini. Cost tracking, prompt caching, structured output.
+- **[gemini-agent-toolkit](https://github.com/barobaonguyen/gemini-agent-toolkit)** *(v0.1.0 — live)* — LangGraph for Gemini. Cost tracking, prompt caching, structured output. 88% test coverage, CI on 3.11/3.12 × Ubuntu/Windows.
 
 ### 📊 Crypto signal & trading
 - **pulse-signals** *(shipping Week 6)* — Walk-forward-first confluence scorer. TA + on-chain + funding.
