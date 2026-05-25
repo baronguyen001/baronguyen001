@@ -14,8 +14,8 @@ I ship tools that bridge LLMs to real-world systems — on-chain data, market si
 - **solana-cluster-radar** *(shipping Week 8)* — Detect Solana wallet clusters buying the same token within minutes. Helius + DexScreener.
 
 ### 🛠️ Tools & skills
-- **claude-skill-007-script** — Claude skill: story idea → 60-second video script with shot list
-- **playwright-cf-bypass** — Playwright stealth defaults for authorized testing
+- **barobao-skills** *(shipping Week 4 — Claude skill pack)* — 15 production-tested Claude skills for Gemini cost control, walk-forward validation, OSS bounty hunting, automation glue. `/plugin install` one command.
+- **playwright-cf-bypass** *(shipping Week 1)* — Playwright stealth defaults for authorized testing
 - More shipping weekly — follow [@barobaonguyen](https://x.com/barobaonguyen) on X
 
 ## Working with me
