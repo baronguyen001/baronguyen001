@@ -1,16 +1,32 @@
-## Hi there 👋
+# Hey, I'm Bao 👋
 
-<!--
-**barobaonguyen/barobaonguyen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**AI engineer building production automation for crypto/trading.**
 
-Here are some ideas to get you started:
+I ship tools that bridge LLMs to real-world systems — on-chain data, market signals, scraping pipelines. Python-first, Gemini-native, walk-forward-validated.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I'm building
+
+### 🤖 AI agent frameworks
+- **gemini-agent-toolkit** *(shipping Week 3)* — LangGraph for Gemini. Cost tracking, prompt caching, structured output.
+
+### 📊 Crypto signal & trading
+- **pulse-signals** *(shipping Week 6)* — Walk-forward-first confluence scorer. TA + on-chain + funding.
+- **solana-cluster-radar** *(shipping Week 8)* — Detect Solana wallet clusters buying the same token within minutes. Helius + DexScreener.
+
+### 🛠️ Tools & skills
+- **claude-skill-007-script** — Claude skill: story idea → 60-second video script with shot list
+- **playwright-cf-bypass** — Playwright stealth defaults for authorized testing
+- More shipping weekly — follow [@barobaonguyen](https://x.com/barobaonguyen) on X
+
+## Working with me
+
+I take on freelance work for:
+- AI agent / LLM integration projects (Gemini + Claude SDK)
+- Crypto data pipelines (Solana, EVM, CEX)
+- Scraping + automation (Playwright, anti-detect)
+
+Reach me: [@barobaonguyen](https://x.com/barobaonguyen) on X
+
+## What I write about
+
+Build-in-public threads on cost optimization, walk-forward validation, and "experiments I rejected." See pinned tweet 👇
