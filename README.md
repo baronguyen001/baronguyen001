@@ -1,33 +1,29 @@
 # Hey, I'm Baro 👋
 
-**AI engineer building production automation for crypto/trading.**
+**I build AI-automation tools that ship — and I'm packaging them so you can ship too.**
 
-I ship tools that bridge LLMs to real-world systems — on-chain data, market signals, scraping pipelines. Python-first, Gemini-native, walk-forward-validated.
+The pattern behind every monitoring/alerting bot is the same: scrape a source → rank or summarize with AI → alert you → run on a schedule. I run this stack across crypto signals, on-chain cluster detection, and OSS bounty hunting — and I'm turning it into tools you can pick up.
 
-## What I'm building
+## 🚀 Build automation bots with Claude
 
-### 🤖 AI agent frameworks
-- **[gemini-agent-toolkit](https://github.com/barobaonguyen/gemini-agent-toolkit)** *(v0.1.0 — live)* — LangGraph for Gemini. Cost tracking, prompt caching, structured output. 88% test coverage, CI on 3.11/3.12 × Ubuntu/Windows.
-- **[ai-news-aggregator](https://github.com/barobaonguyen/ai-news-aggregator)** *(v0.1.0 — live)* — Auto-summarize 35+ AI newsletters into one weekly Telegram digest. Gmail IMAP → Gemini classify + summarize → Telegram. ~$0.02/week on Gemini Pro, runs Sunday 8AM via cron. Reference impl of `gemini-agent-toolkit` patterns.
+- **[ai-automation-skills](https://github.com/barobaonguyen/ai-automation-skills)** *(live)* — 15 production-tested Claude Code skills for the scrape → AI → alert stack: Gemini cost control + structured output, Telegram alerts, walk-forward validation, OSS bounty scouting. One command:
+  `/plugin install ai-automation-skills@barobaonguyen`
+- **Trawlkit** *(shipping soon)* — a paid starter kit that wires these skills into runnable Python bots: Playwright scraper + cost-controlled Gemini + Telegram alerts + scheduler + a `tk` CLI + 3 working bots. Follow [@barobaonguyen](https://x.com/barobaonguyen) for launch.
 
-### 📊 Crypto signal & trading
-- **pulse-signals** *(shipping Week 6)* — Walk-forward-first confluence scorer. TA + on-chain + funding.
-- **solana-cluster-radar** *(shipping Week 8)* — Detect Solana wallet clusters buying the same token within minutes. Helius + DexScreener.
+## 🔬 Built and battle-tested
 
-### 🛠️ Tools & skills
-- **barobao-skills** *(shipping Week 4 — Claude skill pack)* — 15 production-tested Claude skills for Gemini cost control, walk-forward validation, OSS bounty hunting, automation glue. `/plugin install` one command.
-- **playwright-cf-bypass** *(shipping Week 1)* — Playwright stealth defaults for authorized testing
-- More shipping weekly — follow [@barobaonguyen](https://x.com/barobaonguyen) on X
+- **[gemini-agent-toolkit](https://github.com/barobaonguyen/gemini-agent-toolkit)** *(v0.1.0 — live)* — Gemini-native agent framework. Cost tracking, prompt caching, structured output. 88% test coverage, CI on 3.11/3.12 × Ubuntu/Windows.
+- **[ai-news-aggregator](https://github.com/barobaonguyen/ai-news-aggregator)** *(v0.1.0 — live)* — Auto-summarize 35+ AI newsletters into one weekly Telegram digest. Gmail IMAP → Gemini classify + summarize → Telegram. ~$0.02/week on Gemini Pro, runs Sunday 8AM via cron.
+- **[ideas-vault-kit](https://github.com/barobaonguyen/ideas-vault-kit)** *(v0.1.0 — live)* — A 4-pillar /40 scoring workflow to kill 9 of every 10 side-project ideas before you write a line of code.
+
+## 📊 Crypto / on-chain (proof it runs at scale)
+
+- **confluence-scanner** *(shipping soon)* — Walk-forward-first confluence scorer: TA + on-chain + funding. The framework that rejects my own bad strategies.
+- **wallet-cluster-detector** *(shipping soon)* — Detect wallet clusters buying the same token within minutes. Helius + DexScreener pipeline.
 
 ## Working with me
 
-I take on freelance work for:
-- AI agent / LLM integration projects (Gemini + Claude SDK)
-- Crypto data pipelines (Solana, EVM, CEX)
-- Scraping + automation (Playwright, anti-detect)
-
+Available for AI-agent / LLM integration, data pipelines, and scraping/automation work.
 Reach me: [@barobaonguyen](https://x.com/barobaonguyen) on X
 
-## What I write about
-
-Build-in-public threads on cost optimization, walk-forward validation, and "experiments I rejected." See pinned tweet 👇
+Build-in-public threads on cost optimization, walk-forward validation, and shipping small products. See pinned tweet 👇
