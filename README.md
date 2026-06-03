@@ -12,7 +12,7 @@ The pattern behind every monitoring/alerting bot is the same: scrape a source �
 
 ## 🔬 Built and battle-tested
 
-- **[gemini-agent-toolkit](https://github.com/barobaonguyen/gemini-agent-toolkit)** *(v0.1.0 — live)* — Gemini-native agent framework. Cost tracking, prompt caching, structured output. 88% test coverage, CI on 3.11/3.12 × Ubuntu/Windows.
+- **[gemini-agent-toolkit](https://github.com/barobaonguyen/gemini-agent-toolkit)** *(v0.2.0 — live)* — Gemini-native agent framework. Streaming, Google Search grounding helper, cost tracking, prompt caching, structured output. 86% test coverage, CI on 3.11/3.12 × Ubuntu/Windows.
 - **[gemini-cookbook](https://github.com/barobaonguyen/gemini-cookbook)** *(v0.2.0 — live)* — 10 runnable `google-genai` recipes, no abstraction layer: prompt caching, structured output, batch API, cost tracking, thinking budget, function calling, search grounding, Files API, multimodal vision, embeddings. CI on 3.11/3.12 × Ubuntu/Windows.
 - **[playwright-cloudflare](https://github.com/barobaonguyen/playwright-cloudflare)** *(v0.2.0 — live)* — Playwright stealth defaults for authorized browser testing: explicit sync helpers, `pw-stealth check`, opt-in fingerprint profiles, and no extra stealth dependency. CI on 3.11/3.12 × Ubuntu/Windows.
 - **[ai-news-aggregator](https://github.com/barobaonguyen/ai-news-aggregator)** *(v0.1.0 — live)* — Auto-summarize 35+ AI newsletters into one weekly Telegram digest. Gmail IMAP → Gemini classify + summarize → Telegram. ~$0.02/week on Gemini Pro, runs Sunday 8AM via cron.
